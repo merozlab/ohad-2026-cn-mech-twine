@@ -1,0 +1,108 @@
+# ----------------------------
+# FIGURE
+# ----------------------------
+
+figure.figsize : 4.75, 3.59 # max width is 3.5 for single column
+figure.dpi: 300
+
+# ----------------------------
+# Set Save figure
+# ----------------------------
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.01  # Use virtually all space when we specify figure dimensions
+savefig.dpi : 300
+
+# ----------------------------
+# Set axis
+# ----------------------------
+
+# X axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.minor.visible : False
+xtick.top : False
+xtick.major.pad : 3
+
+# Y axis
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+ytick.minor.visible : False
+ytick.right : False
+ytick.major.pad : 3
+
+# ----------------------------
+# Set line widths
+# ----------------------------
+
+# Lines should be between 0.5 and 1.5 pt
+axes.linewidth : 0.5
+lines.linewidth : 1.
+lines.markersize: 2
+
+# ----------------------------
+# Set grid
+# ----------------------------
+
+axes.grid: True
+grid.linewidth : 0.5
+grid.linestyle: --
+grid.alpha: 0.5
+
+
+# Remove legend frame
+legend.frameon : False
+
+# ----------------------------
+# Font sizes
+# ----------------------------
+
+# Fonts should be between 6 and 10 pt
+axes.labelsize: 8
+xtick.labelsize: 8
+ytick.labelsize: 8
+legend.fontsize: 6
+font.size: 8
+
+# Minus sign:
+axes.unicode_minus: False
+
+# ----------------------------
+# Set Font
+# ----------------------------
+
+#font.family: sans-serif
+#font.sans-serif: Nimbus Sans
+#mathtext.fontset : dejavusans
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Helvetica, Lucida Grande, Verdana, Geneva, Lucid, Avant Garde, sans-serif
+mathtext.fontset : dejavusans
+
+# ----------------------------
+# LaTeX packages
+# ----------------------------
+
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{sfmath}
+
+
+# ----------------------------
+# AXES
+# ----------------------------
+axes.labelpad : 4.0
+
+
+# ----------------------------
+# SPINES
+# ----------------------------
+
+axes.spines.top: True
+axes.spines.right: True
+axes.spines.left: True
+axes.spines.bottom: True

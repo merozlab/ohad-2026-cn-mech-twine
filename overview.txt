@@ -1,0 +1,1559 @@
+================================================================================
+PROJECT OVERVIEW
+================================================================================
+
+
+📁 ROOT/
+-------
+  📄 README.md
+  📄 overview.txt
+  📄 requirements.txt
+
+  📁 .vscode/
+  ----------
+    📄 settings.json
+
+  📁 data/
+  -------
+    📄 Exp2_supplementary_measurements_events_xl.xlsx
+    📄 Slip-twine tables.xlsx
+
+    📁 data/3D-prints/
+    -----------------
+
+      📁 data/3D-prints/3-point-bending/
+      ---------------------------------
+        📄 Measurement stage parts v1b.stl
+        📄 camera anchor + puzzle.stl
+        📄 camera anchor holder.stl
+        📄 extensions with puzzle connectors.stl
+        📄 length and height extensions.stl
+        📄 pillar base + extensions.stl
+        📄 pillar base.stl
+
+      📁 data/3D-prints/motor-stage/
+      -----------------------------
+        📄 base pole.stl
+        📄 main gear.stl
+        📄 motor base.stl
+        📄 plant stage base.stl
+        📄 plant stage.stl
+        📄 worm gear.stl
+        📄 worm-gear base.stl
+
+    📁 data/contact_track_logs/
+    --------------------------
+      📄 CSRT_005_1_side_contact.txt
+      📄 CSRT_005_2_side_contact.txt
+      📄 CSRT_006_1_side_contact.txt
+      📄 CSRT_007_1_side_contact.txt
+      📄 CSRT_008_1_side_contact.txt
+      📄 CSRT_008_2_side_contact.txt
+      📄 CSRT_008_3_side_contact.txt
+      📄 CSRT_008_4_side_contact.txt
+      📄 CSRT_008_5_side_contact.txt
+      📄 CSRT_008_6_side_contact.txt
+      📄 CSRT_008_7_side_contact.txt
+      📄 CSRT_009_1_side_contact.txt
+      📄 CSRT_009_2_side_contact.txt
+      📄 CSRT_009_3_side_contact.txt
+      📄 CSRT_009_4_side_contact.txt
+      📄 CSRT_0100_1_side_contact.txt
+      📄 CSRT_0101_1_side_contact.txt
+      📄 CSRT_0102_1_side_contact.txt
+      📄 CSRT_0102_2_side_contact.txt
+      📄 CSRT_0102_3_side_contact.txt
+      📄 CSRT_0103_1_side_contact.txt
+      📄 CSRT_0103_2_side_contact.txt
+      📄 CSRT_0104_1_side_contact.txt
+      📄 CSRT_0105_1_side_contact.txt
+      📄 CSRT_0106_1_side_contact.txt
+      📄 CSRT_0107_1_side_contact.txt
+      📄 CSRT_0108_1_side_contact.txt
+      📄 CSRT_0108_2_side_contact.txt
+      📄 CSRT_0109_1_side_contact.txt
+      📄 CSRT_0109_2_side_contact.txt
+      📄 CSRT_0109_3_side_contact.txt
+      📄 CSRT_010_1_side_contact.txt
+      📄 CSRT_010_2_side_contact.txt
+      📄 CSRT_010_3_side_contact.txt
+      📄 CSRT_010_4_side_contact.txt
+      📄 CSRT_010_5_side_contact.txt
+      📄 CSRT_010_6_side_contact.txt
+      📄 CSRT_010_7_side_contact.txt
+      📄 CSRT_0110_1_side_contact.txt
+      📄 CSRT_0111_1_side_contact.txt
+      📄 CSRT_0112_1_side_contact.txt
+      📄 CSRT_0112_2_side_contact.txt
+      📄 CSRT_0113_1_side_contact.txt
+      📄 CSRT_0114_1_side_contact.txt
+      📄 CSRT_0115_1_side_contact.txt
+      📄 CSRT_0116_1_side_contact.txt
+      📄 CSRT_0117_1_side_contact.txt
+      📄 CSRT_0118_1_side_contact.txt
+      📄 CSRT_0119_1_side_contact.txt
+      📄 CSRT_0119_2_side_contact.txt
+      📄 CSRT_0119_3_side_contact.txt
+      📄 CSRT_011_1_side_contact.txt
+      📄 CSRT_011_2_side_contact.txt
+      📄 CSRT_011_3_side_contact.txt
+      📄 CSRT_0120_1_side_contact.txt
+      📄 CSRT_0121_1_side_contact.txt
+      📄 CSRT_0122_1_side_contact.txt
+      📄 CSRT_0122_2_side_contact.txt
+      📄 CSRT_012_1_side_contact.txt
+      📄 CSRT_012_2_side_contact.txt
+      📄 CSRT_013_1_side_contact.txt
+      📄 CSRT_014_1_side_contact.txt
+      📄 CSRT_014_2_side_contact.txt
+      📄 CSRT_014_3_side_contact.txt
+      📄 CSRT_014_4_side_contact.txt
+      📄 CSRT_015_1_side_contact.txt
+      📄 CSRT_016_1_side_contact.txt
+      📄 CSRT_017_1_side_contact.txt
+      📄 CSRT_017_2_side_contact.txt
+      📄 CSRT_018_1_side_contact.txt
+      📄 CSRT_019_1_side_contact.txt
+      📄 CSRT_019_2_side_contact.txt
+      📄 CSRT_020_1_side_contact.txt
+      📄 CSRT_020_2_side_contact.txt
+      📄 CSRT_021_1_side_contact.txt
+      📄 CSRT_021_2_side_contact.txt
+      📄 CSRT_022_1_side_contact.txt
+      📄 CSRT_022_2_side_contact.txt
+      📄 CSRT_023_1_side_contact.txt
+      📄 CSRT_024_1_side_contact.txt
+      📄 CSRT_025_0_side_contact.txt
+      📄 CSRT_025_1_side_contact.txt
+      📄 CSRT_025_3_side_contact.txt
+      📄 CSRT_025_4_side_contact.txt
+      📄 CSRT_025_5_side_contact.txt
+      📄 CSRT_025_6_side_contact.txt
+      📄 CSRT_025_7_side_contact.txt
+      📄 CSRT_026_1_side_contact.txt
+      📄 CSRT_026_2_side_contact.txt
+      📄 CSRT_026_3_side_contact.txt
+      📄 CSRT_027_1_side_contact.txt
+      📄 CSRT_028_1_side_contact.txt
+      📄 CSRT_028_2_side_contact.txt
+      📄 CSRT_028_3_side_contact.txt
+      📄 CSRT_029_1_side_contact.txt
+      📄 CSRT_029_2_side_contact.txt
+      📄 CSRT_030_1_side_contact.txt
+      📄 CSRT_031_1_side_contact.txt
+      📄 CSRT_032_1_side_contact.txt
+      📄 CSRT_032_2_side_contact.txt
+      📄 CSRT_033_1_side_contact.txt
+      📄 CSRT_033_2_side_contact.txt
+      📄 CSRT_033_3_side_contact.txt
+      📄 CSRT_033_4_side_contact.txt
+      📄 CSRT_035_1_side_contact.txt
+      📄 CSRT_036_1_side_contact.txt
+      📄 CSRT_037_1_side_contact.txt
+      📄 CSRT_037_2_side_contact.txt
+      📄 CSRT_037_3_side_contact.txt
+      📄 CSRT_038_1_side_contact.txt
+      📄 CSRT_039_1_side_contact.txt
+      📄 CSRT_040_1_side_contact.txt
+      📄 CSRT_041_1_side_contact.txt
+      📄 CSRT_041_2_side_contact.txt
+      📄 CSRT_042_1_side_contact.txt
+      📄 CSRT_042_2_side_contact.txt
+      📄 CSRT_042_3_side_contact.txt
+      📄 CSRT_043_1_side_contact.txt
+      📄 CSRT_044_1_side_contact.txt
+      📄 CSRT_045_1_side_contact.txt
+      📄 CSRT_046_1_side_contact.txt
+      📄 CSRT_046_2_side_contact.txt
+      📄 CSRT_047_1_side_contact.txt
+      📄 CSRT_048_1_side_contact.txt
+      📄 CSRT_049_1_side_contact.txt
+      📄 CSRT_049_2_side_contact.txt
+      📄 CSRT_049_3_side_contact.txt
+      📄 CSRT_049_4_side_contact.txt
+      📄 CSRT_050_1_side_contact.txt
+      📄 CSRT_051_1_side_contact.txt
+      📄 CSRT_052_1_side_contact.txt
+      📄 CSRT_053_1_side_contact.txt
+      📄 CSRT_054_1_side_ contact.txt
+      📄 CSRT_054_2_side_ contact.txt
+      📄 CSRT_054_3_side_ contact.txt
+      📄 CSRT_054_4_side_ contact.txt
+      📄 CSRT_055_1_side_ contact.txt
+      📄 CSRT_056_0_side_ contact.txt
+      📄 CSRT_056_1_side_ contact.txt
+      📄 CSRT_056_2_side_ contact.txt
+      📄 CSRT_056_3_side_ contact.txt
+      📄 CSRT_056_4_side_ contact.txt
+      📄 CSRT_056_5_side_ contact.txt
+      📄 CSRT_056_6_side_ contact.txt
+      📄 CSRT_056_7_side_ contact.txt
+      📄 CSRT_057_1_side_ contact.txt
+      📄 CSRT_058_1_side_ contact.txt
+      📄 CSRT_058_2_side_ contact.txt
+      📄 CSRT_059_1_side_ contact.txt
+      📄 CSRT_059_2_side_ contact.txt
+      📄 CSRT_059_3_side_ contact.txt
+      📄 CSRT_059_4_side_ contact.txt
+      📄 CSRT_059_5_side_ contact.txt
+      📄 CSRT_060_1_side_ contact.txt
+      📄 CSRT_061_1_side_contact.txt
+      📄 CSRT_062_1_side_ contact.txt
+      📄 CSRT_063_1_side_ contact.txt
+      📄 CSRT_063_2_side_ contact.txt
+      📄 CSRT_064_1_side_contact.txt
+      📄 CSRT_064_2_side_contact.txt
+      📄 CSRT_065_1_side_contact.txt
+      📄 CSRT_067_1_side_contact.txt
+      📄 CSRT_068_1_side_contact.txt
+      📄 CSRT_069_1_side_contact.txt
+      📄 CSRT_069_2_side_contact.txt
+      📄 CSRT_069_3_side_contact.txt
+      📄 CSRT_070_1_side_contact.txt
+      📄 CSRT_071_1_side_contact.txt
+      📄 CSRT_072_1_side_contact.txt
+      📄 CSRT_072_2_side_contact.txt
+      📄 CSRT_073_1_side_contact.txt
+      📄 CSRT_074_1_side_contact.txt
+      📄 CSRT_074_2_side_contact.txt
+      📄 CSRT_074_3_side_contact.txt
+      📄 CSRT_075_1_side_contact.txt
+      📄 CSRT_075_2_side_contact.txt
+      📄 CSRT_076_1_side_contact.txt
+      📄 CSRT_077_1_side_contact.txt
+      📄 CSRT_078_1_side_contact.txt
+      📄 CSRT_079_1_side_contact.txt
+      📄 CSRT_079_2_side_contact.txt
+      📄 CSRT_080_1_side_contact.txt
+      📄 CSRT_081_1_side_contact.txt
+      📄 CSRT_082_1_side_contact.txt
+      📄 CSRT_082_2_side_contact.txt
+      📄 CSRT_082_3_side_contact.txt
+      📄 CSRT_082_4_side_contact.txt
+      📄 CSRT_083_1_side_contact.txt
+      📄 CSRT_084_1_side_contact.txt
+      📄 CSRT_084_2_side_contact.txt
+      📄 CSRT_085_1_side_contact.txt
+      📄 CSRT_085_2_side_contact.txt
+      📄 CSRT_086_1_side_contact.txt
+      📄 CSRT_086_2_side_contact.txt
+      📄 CSRT_087_1_side_contact.txt
+      📄 CSRT_088_1_side_contact.txt
+      📄 CSRT_088_2_side_contact.txt
+      📄 CSRT_089_1_side_contact.txt
+      📄 CSRT_090_1_side_contact.txt
+      📄 CSRT_090_2_side_contact.txt
+      📄 CSRT_090_3_side_contact.txt
+      📄 CSRT_091_1_side_contact.txt
+      📄 CSRT_092_1_side_contact.txt
+      📄 CSRT_092_2_side_contact.txt
+      📄 CSRT_092_3_side_contact.txt
+      📄 CSRT_092_4_side_contact.txt
+      📄 CSRT_093_1_side_contact.txt
+      📄 CSRT_094_1_side_contact.txt
+      📄 CSRT_095_1_side_contact.txt
+      📄 CSRT_095_2_side_contact.txt
+      📄 CSRT_095_3_side_contact.txt
+      📄 CSRT_096_1_side_contact.txt
+      📄 CSRT_096_2_side_contact.txt
+      📄 CSRT_096_3_side_contact.txt
+      📄 CSRT_096_4_side_contact.txt
+      📄 CSRT_097_1_side_contact.txt
+      📄 CSRT_098_1_side_contact.txt
+      📄 CSRT_098_2_side_contact.txt
+      📄 CSRT_099_1_side_contact.txt
+
+    📁 data/extreme_msup/
+    --------------------
+      📄 light_1_results.xlsx
+      📄 light_2_results.xlsx
+      📄 light_3_results.xlsx
+      📄 light_4_results.xlsx
+      📄 light_5_results.xlsx
+      📄 light_6_results.xlsx
+      📄 stable_10_results.xlsx
+      📄 stable_11_results.xlsx
+      📄 stable_12_results.xlsx
+      📄 stable_13_results.xlsx
+      📄 stable_14_results.xlsx
+      📄 stable_1_results.xlsx
+      📄 stable_2_results.xlsx
+      📄 stable_3_results.xlsx
+      📄 stable_4_results.xlsx
+      📄 stable_5_results.xlsx
+      📄 stable_6_results.xlsx
+      📄 stable_7_results.xlsx
+      📄 stable_8_results.xlsx
+      📄 stable_9_results.xlsx
+
+    📁 data/images/
+    --------------
+      📄 Young's modulus extraction.pptx
+      📄 curvature extraction.pptx
+      📄 imaging.pptx
+
+      📁 data/images/cantilever/
+      -------------------------
+        📄 cantilever_schematic_crop.png
+
+      📁 data/images/motor/
+      --------------------
+        📄 2023_08_21_10_33_07-motor calibration img.jpg
+        📄 contact wo twine.png
+        📄 contact wo twine.pptx
+        📄 motor_schematic3.png
+        📄 motor_schematic3_Barak.pdf
+        📄 motor_snapshot.pptx
+        📄 motor_snapshot3.png
+
+      📁 data/images/pend_schem/
+      -------------------------
+        📄 exp_schem_v2.pdf
+        📄 exp_schem_v2.svg
+        📄 exp_schem_v3.pdf
+        📄 exp_schematic_v2.png
+        📄 filtered_overlay.png
+        📄 pend_scheme_barak1.jpg
+
+      📁 data/images/sim/
+      ------------------
+        📄 sim_unlabeled_crop_2.png
+
+      📁 data/images/stem/
+      -------------------
+        📄 stem_img.jpg
+
+    📁 data/motor_exp/
+    -----------------
+      📄 Rotating_stage_code.ino
+      📄 motor mod_misx_new.xlsx
+
+      📁 data/motor_exp/analyze_CN/
+      ----------------------------
+        📄 10_analyzeCN.xlsx
+        📄 12_analyzeCN.xlsx
+        📄 13_analyzeCN.xlsx
+        📄 14_analyzeCN.xlsx
+        📄 15_analyzeCN.xlsx
+        📄 16_analyzeCN.xlsx
+        📄 17_analyzeCN.xlsx
+        📄 18_analyzeCN.xlsx
+        📄 19_analyzeCN.xlsx
+        📄 20_analyzeCN.xlsx
+        📄 21_analyzeCN.xlsx
+        📄 22_analyzeCN.xlsx
+        📄 23_analyzeCN.xlsx
+        📄 24_analyzeCN.xlsx
+        📄 25_analyzeCN.xlsx
+        📄 26_analyzeCN.xlsx
+        📄 27_analyzeCN.xlsx
+        📄 28_analyzeCN.xlsx
+        📄 29_analyzeCN.xlsx
+        📄 30_analyzeCN.xlsx
+        📄 31_analyzeCN.xlsx
+        📄 32_analyzeCN.xlsx
+
+      📁 data/motor_exp/motor_twine_init_logs/
+      ---------------------------------------
+        📄 CSRT_10_1_motorized.txt
+        📄 CSRT_10_2_motorized.txt
+        📄 CSRT_10_3_motorized.txt
+        📄 CSRT_10_4_motorized.txt
+        📄 CSRT_12_1_motorized.txt
+        📄 CSRT_12_2_motorized.txt
+        📄 CSRT_14_1_motorized.txt
+        📄 CSRT_14_2_motorized.txt
+        📄 CSRT_14_3_motorized.txt
+        📄 CSRT_14_4_motorized.txt
+        📄 CSRT_14_5_motorized.txt
+        📄 CSRT_14_6_motorized.txt
+        📄 CSRT_15_1_motorized.txt
+        📄 CSRT_15_2_motorized.txt
+        📄 CSRT_16_1_motorized.txt
+        📄 CSRT_16_2_motorized.txt
+        📄 CSRT_16_3_motorized.txt
+        📄 CSRT_17_1_motorized.txt
+        📄 CSRT_18_1_motorized.txt
+        📄 CSRT_19_1_motorized.txt
+        📄 CSRT_20_1_motorized.txt
+        📄 CSRT_21_1_motorized.txt
+        📄 CSRT_22_1_motorized.txt
+        📄 CSRT_23_1_motorized.txt
+        📄 CSRT_24_1_motorized.txt
+        📄 CSRT_25_1_motorized.txt
+        📄 CSRT_26_1_motorized.txt
+        📄 CSRT_27_1_motorized.txt
+        📄 CSRT_27_2_motorized.txt
+        📄 CSRT_28_1_motorized.txt
+        📄 CSRT_28_2_motorized.txt
+        📄 CSRT_29_1_motorized.txt
+        📄 CSRT_29_2_motorized.txt
+        📄 CSRT_31_1_motorized.txt
+        📄 CSRT_32_1_motorized.txt
+
+    📁 data/side_view_cn_perpendicular/
+    ----------------------------------
+
+      📁 data/side_view_cn_perpendicular/saved_variables/
+      --------------------------------------------------
+        📄 1.xlsx
+        📄 100.xlsx
+        📄 104.xlsx
+        📄 107.xlsx
+        📄 108.xlsx
+        📄 109.xlsx
+        📄 11.xlsx
+        📄 111.xlsx
+        📄 112.xlsx
+        📄 113.xlsx
+        📄 116.xlsx
+        📄 118.xlsx
+        📄 12.xlsx
+        📄 120.xlsx
+        📄 121.xlsx
+        📄 122.xlsx
+        📄 14.xlsx
+        📄 16.xlsx
+        📄 19.xlsx
+        📄 2.xlsx
+        📄 20.xlsx
+        📄 21.xlsx
+        📄 22.xlsx
+        📄 23.xlsx
+        📄 25.xlsx
+        📄 27.xlsx
+        📄 28.xlsx
+        📄 29.xlsx
+        📄 31.xlsx
+        📄 32.xlsx
+        📄 33.xlsx
+        📄 35.xlsx
+        📄 36.xlsx
+        📄 37.xlsx
+        📄 39.xlsx
+        📄 40.xlsx
+        📄 41.xlsx
+        📄 42.xlsx
+        📄 46.xlsx
+        📄 47.xlsx
+        📄 49.xlsx
+        📄 5.xlsx
+        📄 51.xlsx
+        📄 52.xlsx
+        📄 53.xlsx
+        📄 54.xlsx
+        📄 55.xlsx
+        📄 56.xlsx
+        📄 57.xlsx
+        📄 58.xlsx
+        📄 59.xlsx
+        📄 6.xlsx
+        📄 60.xlsx
+        📄 61.xlsx
+        📄 62.xlsx
+        📄 63.xlsx
+        📄 64.xlsx
+        📄 65.xlsx
+        📄 66.xlsx
+        📄 67.xlsx
+        📄 68.xlsx
+        📄 69.xlsx
+        📄 7.xlsx
+        📄 70.xlsx
+        📄 71.xlsx
+        📄 72.xlsx
+        📄 73.xlsx
+        📄 74.xlsx
+        📄 75.xlsx
+        📄 76.xlsx
+        📄 78.xlsx
+        📄 79.xlsx
+        📄 81.xlsx
+        📄 85.xlsx
+        📄 87.xlsx
+        📄 89.xlsx
+        📄 9.xlsx
+        📄 92.xlsx
+        📄 93.xlsx
+        📄 95.xlsx
+        📄 96.xlsx
+        📄 97.xlsx
+        📄 98.xlsx
+
+    📁 data/simulations/
+    -------------------
+      📄 twining23_3_July25.dat
+
+    📁 data/test_figures/
+    --------------------
+      📄 Fig1.svg
+      📄 Fig1_edited.svg
+      📄 Fig2_edited.svg
+      📄 Fig3.svg
+      📄 Fig3_edited.svg
+      📄 Fig4.svg
+      📄 Fig4_edited.svg
+
+    📁 data/track_logs/
+    ------------------
+      📄 CSRT_001_1_side_pi.txt
+      📄 CSRT_002_1_side_pi.txt
+      📄 CSRT_004_1_side_pi.txt
+      📄 CSRT_005_1_side.txt
+      📄 CSRT_005_2_side.txt
+      📄 CSRT_006_1_side.txt
+      📄 CSRT_006_1_top.txt
+      📄 CSRT_007_1_side.txt
+      📄 CSRT_007_1_top.txt
+      📄 CSRT_008_1_side.txt
+      📄 CSRT_008_1_top.txt
+      📄 CSRT_008_2_side.txt
+      📄 CSRT_008_2_top.txt
+      📄 CSRT_008_3_side.txt
+      📄 CSRT_008_3_top.txt
+      📄 CSRT_008_4_side.txt
+      📄 CSRT_008_4_top.txt
+      📄 CSRT_008_5_side.txt
+      📄 CSRT_008_5_top.txt
+      📄 CSRT_008_6_side.txt
+      📄 CSRT_008_6_top.txt
+      📄 CSRT_008_7_side.txt
+      📄 CSRT_008_7_top.txt
+      📄 CSRT_009_1_side.txt
+      📄 CSRT_009_1_top.txt
+      📄 CSRT_009_2_side.txt
+      📄 CSRT_009_2_top.txt
+      📄 CSRT_009_3_side.txt
+      📄 CSRT_009_3_top.txt
+      📄 CSRT_009_4_side.txt
+      📄 CSRT_009_4_top.txt
+      📄 CSRT_0100_side_1.txt
+      📄 CSRT_0100_top_1.txt
+      📄 CSRT_0101_side_1.txt
+      📄 CSRT_0101_top_1.txt
+      📄 CSRT_0102_side_1.txt
+      📄 CSRT_0102_side_2.txt
+      📄 CSRT_0102_side_3.txt
+      📄 CSRT_0102_top_1.txt
+      📄 CSRT_0102_top_2.txt
+      📄 CSRT_0102_top_3.txt
+      📄 CSRT_0103_side_1.txt
+      📄 CSRT_0103_side_2.txt
+      📄 CSRT_0103_top_1.txt
+      📄 CSRT_0103_top_2.txt
+      📄 CSRT_0104_side_1.txt
+      📄 CSRT_0104_top_1.txt
+      📄 CSRT_0105_side_1.txt
+      📄 CSRT_0105_top_1.txt
+      📄 CSRT_0106_side_1.txt
+      📄 CSRT_0106_top_1.txt
+      📄 CSRT_0107_side_1.txt
+      📄 CSRT_0107_top_1.txt
+      📄 CSRT_0108_side_1.txt
+      📄 CSRT_0108_side_2.txt
+      📄 CSRT_0108_top_1.txt
+      📄 CSRT_0108_top_2.txt
+      📄 CSRT_0109_side_1.txt
+      📄 CSRT_0109_side_2.txt
+      📄 CSRT_0109_side_3.txt
+      📄 CSRT_0109_top_1.txt
+      📄 CSRT_0109_top_2.txt
+      📄 CSRT_0109_top_3.txt
+      📄 CSRT_010_1_side.txt
+      📄 CSRT_010_1_top.txt
+      📄 CSRT_010_2_side.txt
+      📄 CSRT_010_2_top.txt
+      📄 CSRT_010_3_side.txt
+      📄 CSRT_010_3_top.txt
+      📄 CSRT_010_4_side.txt
+      📄 CSRT_010_4_top.txt
+      📄 CSRT_010_5_side.txt
+      📄 CSRT_010_5_top.txt
+      📄 CSRT_010_6_side.txt
+      📄 CSRT_010_6_top.txt
+      📄 CSRT_010_7_side.txt
+      📄 CSRT_010_7_top.txt
+      📄 CSRT_0110_side_1.txt
+      📄 CSRT_0110_top_1.txt
+      📄 CSRT_0111_side_1.txt
+      📄 CSRT_0111_top_1.txt
+      📄 CSRT_0112_side_1.txt
+      📄 CSRT_0112_side_2.txt
+      📄 CSRT_0112_top_1.txt
+      📄 CSRT_0112_top_2.txt
+      📄 CSRT_0113_side_1.txt
+      📄 CSRT_0113_top_1.txt
+      📄 CSRT_0114_side_1.txt
+      📄 CSRT_0114_top_1.txt
+      📄 CSRT_0115_side_1.txt
+      📄 CSRT_0115_top_1.txt
+      📄 CSRT_0116_side_1.txt
+      📄 CSRT_0116_top_1.txt
+      📄 CSRT_0117_side_1.txt
+      📄 CSRT_0117_top_1.txt
+      📄 CSRT_0118_side_1.txt
+      📄 CSRT_0118_top_1.txt
+      📄 CSRT_0119_side_1.txt
+      📄 CSRT_0119_side_2.txt
+      📄 CSRT_0119_side_3.txt
+      📄 CSRT_0119_top_1.txt
+      📄 CSRT_0119_top_2.txt
+      📄 CSRT_0119_top_3.txt
+      📄 CSRT_011_1_side.txt
+      📄 CSRT_011_1_top.txt
+      📄 CSRT_011_2_side.txt
+      📄 CSRT_011_2_top.txt
+      📄 CSRT_011_3_side.txt
+      📄 CSRT_011_3_top.txt
+      📄 CSRT_0120_side_1.txt
+      📄 CSRT_0120_top_1.txt
+      📄 CSRT_0121_side_1.txt
+      📄 CSRT_0121_top_1.txt
+      📄 CSRT_0122_side_1.txt
+      📄 CSRT_0122_side_2.txt
+      📄 CSRT_0122_top_1.txt
+      📄 CSRT_0122_top_2.txt
+      📄 CSRT_012_1_side.txt
+      📄 CSRT_012_1_top.txt
+      📄 CSRT_012_2_side.txt
+      📄 CSRT_012_2_top.txt
+      📄 CSRT_013_1_side.txt
+      📄 CSRT_013_1_top.txt
+      📄 CSRT_014_1_side.txt
+      📄 CSRT_014_1_top.txt
+      📄 CSRT_014_2_side.txt
+      📄 CSRT_014_2_top.txt
+      📄 CSRT_014_3_side.txt
+      📄 CSRT_014_3_top.txt
+      📄 CSRT_014_4_side.txt
+      📄 CSRT_014_4_top.txt
+      📄 CSRT_015_1_side.txt
+      📄 CSRT_015_1_top.txt
+      📄 CSRT_016_1_side.txt
+      📄 CSRT_016_1_top.txt
+      📄 CSRT_017_1_side.txt
+      📄 CSRT_017_1_top.txt
+      📄 CSRT_017_2_side.txt
+      📄 CSRT_017_2_top.txt
+      📄 CSRT_018_1_side.txt
+      📄 CSRT_019_1_side.txt
+      📄 CSRT_019_1_top.txt
+      📄 CSRT_019_2_side.txt
+      📄 CSRT_019_2_top.txt
+      📄 CSRT_020_1_side.txt
+      📄 CSRT_020_1_top.txt
+      📄 CSRT_020_2_side.txt
+      📄 CSRT_020_2_top.txt
+      📄 CSRT_021_1_side.txt
+      📄 CSRT_021_1_top.txt
+      📄 CSRT_021_2_side.txt
+      📄 CSRT_021_2_top.txt
+      📄 CSRT_022_1_side.txt
+      📄 CSRT_022_1_top.txt
+      📄 CSRT_022_2_side.txt
+      📄 CSRT_022_2_top.txt
+      📄 CSRT_023_1_side.txt
+      📄 CSRT_023_1_top.txt
+      📄 CSRT_024_1_side.txt
+      📄 CSRT_024_1_top.txt
+      📄 CSRT_025_0_side.txt
+      📄 CSRT_025_0_top.txt
+      📄 CSRT_025_1_side.txt
+      📄 CSRT_025_1_top.txt
+      📄 CSRT_025_3_side.txt
+      📄 CSRT_025_3_top.txt
+      📄 CSRT_025_4_side.txt
+      📄 CSRT_025_4_top.txt
+      📄 CSRT_025_5_side.txt
+      📄 CSRT_025_5_top.txt
+      📄 CSRT_025_6_side.txt
+      📄 CSRT_025_6_top.txt
+      📄 CSRT_025_7_side.txt
+      📄 CSRT_025_7_top.txt
+      📄 CSRT_026_1_side.txt
+      📄 CSRT_026_1_top.txt
+      📄 CSRT_026_2_side.txt
+      📄 CSRT_026_2_top.txt
+      📄 CSRT_026_3_side.txt
+      📄 CSRT_026_3_top.txt
+      📄 CSRT_026_side_2.txt
+      📄 CSRT_026_top_2.txt
+      📄 CSRT_027_1_side.txt
+      📄 CSRT_027_1_top.txt
+      📄 CSRT_028_1_side.txt
+      📄 CSRT_028_1_top.txt
+      📄 CSRT_028_2_side.txt
+      📄 CSRT_028_2_top.txt
+      📄 CSRT_028_3_side.txt
+      📄 CSRT_028_3_top.txt
+      📄 CSRT_029_1_side.txt
+      📄 CSRT_029_1_top.txt
+      📄 CSRT_029_2_side.txt
+      📄 CSRT_029_2_top.txt
+      📄 CSRT_030_1_side.txt
+      📄 CSRT_030_1_top.txt
+      📄 CSRT_031_1_side.txt
+      📄 CSRT_031_1_top.txt
+      📄 CSRT_032_1_side.txt
+      📄 CSRT_032_2_side.txt
+      📄 CSRT_033_1_side.txt
+      📄 CSRT_033_1_top.txt
+      📄 CSRT_033_2_side.txt
+      📄 CSRT_033_2_top.txt
+      📄 CSRT_033_3_side.txt
+      📄 CSRT_033_3_top.txt
+      📄 CSRT_033_4_side.txt
+      📄 CSRT_033_4_top.txt
+      📄 CSRT_035_1_side.txt
+      📄 CSRT_035_1_top.txt
+      📄 CSRT_036_1_side.txt
+      📄 CSRT_036_1_top.txt
+      📄 CSRT_037_1_side.txt
+      📄 CSRT_037_1_top.txt
+      📄 CSRT_037_2_side.txt
+      📄 CSRT_037_2_top.txt
+      📄 CSRT_037_3_side.txt
+      📄 CSRT_037_3_top.txt
+      📄 CSRT_038_1_side.txt
+      📄 CSRT_038_1_top.txt
+      📄 CSRT_039_1_side.txt
+      📄 CSRT_039_1_top.txt
+      📄 CSRT_040_1_side.txt
+      📄 CSRT_040_1_top.txt
+      📄 CSRT_041_1_side.txt
+      📄 CSRT_041_1_top.txt
+      📄 CSRT_041_2_side.txt
+      📄 CSRT_041_2_top.txt
+      📄 CSRT_042_1_side.txt
+      📄 CSRT_042_1_top.txt
+      📄 CSRT_042_2_side.txt
+      📄 CSRT_042_2_top.txt
+      📄 CSRT_042_3_side.txt
+      📄 CSRT_042_3_top.txt
+      📄 CSRT_043_1_side.txt
+      📄 CSRT_043_1_top.txt
+      📄 CSRT_044_1_side.txt
+      📄 CSRT_044_1_top.txt
+      📄 CSRT_045_1_side.txt
+      📄 CSRT_046_1_side.txt
+      📄 CSRT_046_1_top.txt
+      📄 CSRT_046_2_side.txt
+      📄 CSRT_046_2_top.txt
+      📄 CSRT_047_1_side.txt
+      📄 CSRT_047_1_top.txt
+      📄 CSRT_048_1_side.txt
+      📄 CSRT_048_1_top.txt
+      📄 CSRT_049_1_side.txt
+      📄 CSRT_049_1_top.txt
+      📄 CSRT_049_2_side.txt
+      📄 CSRT_049_2_top.txt
+      📄 CSRT_049_3_side.txt
+      📄 CSRT_049_3_top.txt
+      📄 CSRT_049_4_side.txt
+      📄 CSRT_049_4_top.txt
+      📄 CSRT_050_1_side.txt
+      📄 CSRT_050_1_top.txt
+      📄 CSRT_051_1_side.txt
+      📄 CSRT_051_1_top.txt
+      📄 CSRT_052_1_side.txt
+      📄 CSRT_052_1_top.txt
+      📄 CSRT_053_1_side.txt
+      📄 CSRT_053_1_top.txt
+      📄 CSRT_054_1_side.txt
+      📄 CSRT_054_1_top.txt
+      📄 CSRT_054_2_side.txt
+      📄 CSRT_054_2_top.txt
+      📄 CSRT_054_3_side.txt
+      📄 CSRT_054_3_top.txt
+      📄 CSRT_054_4_side.txt
+      📄 CSRT_054_4_top.txt
+      📄 CSRT_055_1_side.txt
+      📄 CSRT_055_1_top.txt
+      📄 CSRT_056_0_top.txt
+      📄 CSRT_056_1_top.txt
+      📄 CSRT_056_2_top.txt
+      📄 CSRT_056_3_top.txt
+      📄 CSRT_056_4_top.txt
+      📄 CSRT_056_5_top.txt
+      📄 CSRT_056_6_top.txt
+      📄 CSRT_056_7_top.txt
+      📄 CSRT_056_side_0.txt
+      📄 CSRT_056_side_1.txt
+      📄 CSRT_056_side_2.txt
+      📄 CSRT_056_side_3.txt
+      📄 CSRT_056_side_4.txt
+      📄 CSRT_056_side_5.txt
+      📄 CSRT_056_side_6.txt
+      📄 CSRT_056_side_7.txt
+      📄 CSRT_057_side_1.txt
+      📄 CSRT_057_top_1.txt
+      📄 CSRT_058_side_1.txt
+      📄 CSRT_058_side_2.txt
+      📄 CSRT_058_top_1.txt
+      📄 CSRT_058_top_2.txt
+      📄 CSRT_059_side_1.txt
+      📄 CSRT_059_side_2.txt
+      📄 CSRT_059_side_3.txt
+      📄 CSRT_059_side_4.txt
+      📄 CSRT_059_side_5.txt
+      📄 CSRT_059_top_1.txt
+      📄 CSRT_059_top_2.txt
+      📄 CSRT_059_top_3.txt
+      📄 CSRT_059_top_4.txt
+      📄 CSRT_059_top_5.txt
+      📄 CSRT_060_side_1.txt
+      📄 CSRT_060_top_1.txt
+      📄 CSRT_061_side_1.txt
+      📄 CSRT_061_top_1.txt
+      📄 CSRT_062_side_1.txt
+      📄 CSRT_062_top_1.txt
+      📄 CSRT_063_side_1.txt
+      📄 CSRT_063_side_2.txt
+      📄 CSRT_063_top_1.txt
+      📄 CSRT_063_top_2.txt
+      📄 CSRT_064_side_1.txt
+      📄 CSRT_064_side_2.txt
+      📄 CSRT_064_top_1.txt
+      📄 CSRT_064_top_2.txt
+      📄 CSRT_065_side_1.txt
+      📄 CSRT_065_top_1.txt
+      📄 CSRT_066_top_1.txt
+      📄 CSRT_067_side_1.txt
+      📄 CSRT_067_top_1.txt
+      📄 CSRT_068_side_1.txt
+      📄 CSRT_068_top_1.txt
+      📄 CSRT_069_side_1.txt
+      📄 CSRT_069_side_2.txt
+      📄 CSRT_069_side_3.txt
+      📄 CSRT_069_top_1.txt
+      📄 CSRT_069_top_2.txt
+      📄 CSRT_069_top_3.txt
+      📄 CSRT_070_side_1.txt
+      📄 CSRT_070_top_1.txt
+      📄 CSRT_071_side_1.txt
+      📄 CSRT_071_top_1.txt
+      📄 CSRT_072_side_1.txt
+      📄 CSRT_072_side_2.txt
+      📄 CSRT_072_top_1.txt
+      📄 CSRT_072_top_2.txt
+      📄 CSRT_073_side_1.txt
+      📄 CSRT_073_top_1.txt
+      📄 CSRT_074_side_1.txt
+      📄 CSRT_074_side_2.txt
+      📄 CSRT_074_side_3.txt
+      📄 CSRT_074_top_1.txt
+      📄 CSRT_074_top_2.txt
+      📄 CSRT_074_top_3.txt
+      📄 CSRT_075_side_1.txt
+      📄 CSRT_075_side_2.txt
+      📄 CSRT_075_top_1.txt
+      📄 CSRT_075_top_2.txt
+      📄 CSRT_076_side_1.txt
+      📄 CSRT_076_top_1.txt
+      📄 CSRT_077_side_1.txt
+      📄 CSRT_077_top_1.txt
+      📄 CSRT_078_side_1.txt
+      📄 CSRT_078_top_1.txt
+      📄 CSRT_079_side_1.txt
+      📄 CSRT_079_side_2.txt
+      📄 CSRT_079_top_1.txt
+      📄 CSRT_079_top_2.txt
+      📄 CSRT_080_side_1.txt
+      📄 CSRT_080_top_1.txt
+      📄 CSRT_081_side_1.txt
+      📄 CSRT_081_top_1.txt
+      📄 CSRT_082_side_1.txt
+      📄 CSRT_082_side_2.txt
+      📄 CSRT_082_side_3.txt
+      📄 CSRT_082_side_4.txt
+      📄 CSRT_082_top_1.txt
+      📄 CSRT_082_top_2.txt
+      📄 CSRT_082_top_3.txt
+      📄 CSRT_082_top_4.txt
+      📄 CSRT_083_side_1.txt
+      📄 CSRT_083_top_1.txt
+      📄 CSRT_084_side_1.txt
+      📄 CSRT_084_side_2.txt
+      📄 CSRT_084_top_1.txt
+      📄 CSRT_084_top_2.txt
+      📄 CSRT_085_side_1.txt
+      📄 CSRT_085_side_2.txt
+      📄 CSRT_085_top_1.txt
+      📄 CSRT_085_top_2.txt
+      📄 CSRT_086_side_1.txt
+      📄 CSRT_086_side_2.txt
+      📄 CSRT_086_top_1.txt
+      📄 CSRT_086_top_2.txt
+      📄 CSRT_087_side_1.txt
+      📄 CSRT_087_top_1.txt
+      📄 CSRT_088_side_1.txt
+      📄 CSRT_088_side_2.txt
+      📄 CSRT_088_top_1.txt
+      📄 CSRT_088_top_2.txt
+      📄 CSRT_089_side_1.txt
+      📄 CSRT_089_top_1.txt
+      📄 CSRT_090_side_1.txt
+      📄 CSRT_090_side_2.txt
+      📄 CSRT_090_side_3.txt
+      📄 CSRT_090_top_1.txt
+      📄 CSRT_090_top_2.txt
+      📄 CSRT_090_top_3.txt
+      📄 CSRT_091_side_1.txt
+      📄 CSRT_091_top_1.txt
+      📄 CSRT_092_side_1.txt
+      📄 CSRT_092_side_2.txt
+      📄 CSRT_092_side_3.txt
+      📄 CSRT_092_side_4.txt
+      📄 CSRT_092_top_1.txt
+      📄 CSRT_092_top_2.txt
+      📄 CSRT_092_top_3.txt
+      📄 CSRT_092_top_4.txt
+      📄 CSRT_093_side_1.txt
+      📄 CSRT_093_top_1.txt
+      📄 CSRT_094_side_1.txt
+      📄 CSRT_094_top_1.txt
+      📄 CSRT_095_side_1.txt
+      📄 CSRT_095_side_2.txt
+      📄 CSRT_095_side_3.txt
+      📄 CSRT_095_top_1.txt
+      📄 CSRT_095_top_2.txt
+      📄 CSRT_095_top_3.txt
+      📄 CSRT_096_side_1.txt
+      📄 CSRT_096_side_2.txt
+      📄 CSRT_096_side_3.txt
+      📄 CSRT_096_side_4.txt
+      📄 CSRT_096_top_1.txt
+      📄 CSRT_096_top_2.txt
+      📄 CSRT_096_top_3.txt
+      📄 CSRT_096_top_4.txt
+      📄 CSRT_097_side_1.txt
+      📄 CSRT_097_top_1.txt
+      📄 CSRT_098_side_1.txt
+      📄 CSRT_098_side_2.txt
+      📄 CSRT_098_top_1.txt
+      📄 CSRT_098_top_2.txt
+      📄 CSRT_099_side_1.txt
+      📄 CSRT_099_top_1.txt
+
+    📁 data/twine_init_logs/
+    -----------------------
+
+      📁 data/twine_init_logs/2025_analysis/
+      -------------------------------------
+        📄 h5_results_100_1_2025.h5
+        📄 h5_results_101_1_2025.h5
+        📄 h5_results_102_3_2025.h5
+        📄 h5_results_103_2_2025.h5
+        📄 h5_results_105_1_2025.h5
+        📄 h5_results_106_1_2025.h5
+        📄 h5_results_107_1_2025.h5
+        📄 h5_results_108_2_2025.h5
+        📄 h5_results_109_1_2025.h5
+        📄 h5_results_109_3_2025.h5
+        📄 h5_results_110_1_2025.h5
+        📄 h5_results_112_2_2025.h5
+        📄 h5_results_114_1_2025.h5
+        📄 h5_results_119_1_2025.h5
+        📄 h5_results_119_2_2025.h5
+        📄 h5_results_119_3_2025.h5
+        📄 h5_results_121_1_2025.h5
+        📄 h5_results_122_1_2025.h5
+        📄 h5_results_122_2_2025.h5
+        📄 h5_results_22_2_2025.h5
+        📄 h5_results_23_1_2025.h5
+        📄 h5_results_24_1_2025.h5
+        📄 h5_results_27_1_2025.h5
+        📄 h5_results_28_3_2025.h5
+        📄 h5_results_29_2_2025.h5
+        📄 h5_results_31_1_2025.h5
+        📄 h5_results_33_3_2025.h5
+        📄 h5_results_33_4_2025.h5
+        📄 h5_results_35_1_2025.h5
+        📄 h5_results_36_1_2025.h5
+        📄 h5_results_37_1_2025.h5
+        📄 h5_results_37_3_2025.h5
+        📄 h5_results_38_1_2025.h5
+        📄 h5_results_40_1_2025.h5
+        📄 h5_results_42_3_2025.h5
+        📄 h5_results_43_1_2025.h5
+        📄 h5_results_44_1_2025.h5
+        📄 h5_results_46_2_2025.h5
+        📄 h5_results_47_1_2025.h5
+        📄 h5_results_48_1_2025.h5
+        📄 h5_results_49_1_2025.h5
+        📄 h5_results_49_4_2025.h5
+        📄 h5_results_50_1_2025.h5
+        📄 h5_results_52_1_2025.h5
+        📄 h5_results_53_1_2025.h5
+        📄 h5_results_54_1_2025.h5
+        📄 h5_results_55_1_2025.h5
+        📄 h5_results_57_1_2025.h5
+        📄 h5_results_58_2_2025.h5
+        📄 h5_results_60_1_2025.h5
+        📄 h5_results_61_1_2025.h5
+        📄 h5_results_62_1_2025.h5
+        📄 h5_results_63_1_2025.h5
+        📄 h5_results_63_2_2025.h5
+        📄 h5_results_64_1_2025.h5
+        📄 h5_results_64_2_2025.h5
+        📄 h5_results_68_1_2025.h5
+        📄 h5_results_70_1_2025.h5
+        📄 h5_results_71_1_2025.h5
+        📄 h5_results_73_1_2025.h5
+        📄 h5_results_74_1_2025.h5
+        📄 h5_results_74_3_2025.h5
+        📄 h5_results_75_2_2025.h5
+        📄 h5_results_77_1_2025.h5
+        📄 h5_results_78_1_2025.h5
+        📄 h5_results_79_2_2025.h5
+        📄 h5_results_80_1_2025.h5
+        📄 h5_results_82_4_2025.h5
+        📄 h5_results_83_1_2025.h5
+        📄 h5_results_84_2_2025.h5
+        📄 h5_results_85_2_2025.h5
+        📄 h5_results_86_2_2025.h5
+        📄 h5_results_88_2_2025.h5
+        📄 h5_results_89_1_2025.h5
+        📄 h5_results_90_3_2025.h5
+        📄 h5_results_91_1_2025.h5
+        📄 h5_results_95_3_2025.h5
+        📄 h5_results_96_4_2025.h5
+        📄 h5_results_99_1_2025.h5
+        📄 interekt_files.txt
+        📄 results_100_1_2025.png
+        📄 results_101_1_2025.png
+        📄 results_102_3_2025.png
+        📄 results_103_2_2025.png
+        📄 results_105_1_2025.png
+        📄 results_106_1_2025.png
+        📄 results_107_1_2025.png
+        📄 results_108_2_2025.png
+        📄 results_109_1_2025.png
+        📄 results_109_3_2025.png
+        📄 results_110_1_2025.png
+        📄 results_112_2_2025.png
+        📄 results_114_1_2025.png
+        📄 results_119_1_2025.png
+        📄 results_119_2_2025.png
+        📄 results_119_3_2025.png
+        📄 results_121_1_2025.png
+        📄 results_122_1_2025.png
+        📄 results_122_2_2025.png
+        📄 results_22_2_2025.png
+        📄 results_23_1_2025.png
+        📄 results_24_1_2025.png
+        📄 results_27_1_2025.png
+        📄 results_28_3_2025.png
+        📄 results_29_2_2025.png
+        📄 results_31_1_2025.png
+        📄 results_33_3_2025.png
+        📄 results_33_4_2025.png
+        📄 results_35_1_2025.png
+        📄 results_36_1_2025.png
+        📄 results_37_1_2025.png
+        📄 results_37_3_2025.png
+        📄 results_38_1_2025.png
+        📄 results_40_1_2025.png
+        📄 results_42_3_2025.png
+        📄 results_43_1_2025.png
+        📄 results_44_1_2025.png
+        📄 results_46_2_2025.png
+        📄 results_47_1_2025.png
+        📄 results_48_1_2025.png
+        📄 results_49_1_2025.png
+        📄 results_49_4_2025.png
+        📄 results_50_1_2025.png
+        📄 results_52_1_2025.png
+        📄 results_53_1_2025.png
+        📄 results_54_1_2025.png
+        📄 results_55_1_2025.png
+        📄 results_57_1_2025.png
+        📄 results_58_2_2025.png
+        📄 results_60_1_2025.png
+        📄 results_61_1_2025.png
+        📄 results_62_1_2025.png
+        📄 results_63_1_2025.png
+        📄 results_63_2_2025.png
+        📄 results_64_1_2025.png
+        📄 results_64_2_2025.png
+        📄 results_68_1_2025.png
+        📄 results_70_1_2025.png
+        📄 results_71_1_2025.png
+        📄 results_73_1_2025.png
+        📄 results_74_1_2025.png
+        📄 results_74_3_2025.png
+        📄 results_75_2_2025.png
+        📄 results_77_1_2025.png
+        📄 results_78_1_2025.png
+        📄 results_79_2_2025.png
+        📄 results_80_1_2025.png
+        📄 results_82_4_2025.png
+        📄 results_83_1_2025.png
+        📄 results_84_2_2025.png
+        📄 results_85_2_2025.png
+        📄 results_86_2_2025.png
+        📄 results_88_2_2025.png
+        📄 results_89_1_2025.png
+        📄 results_90_3_2025.png
+        📄 results_91_1_2025.png
+        📄 results_95_3_2025.png
+        📄 results_96_4_2025.png
+        📄 results_99_1_2025.png
+
+      📁 data/twine_init_logs/two_point_tracking/
+      ------------------------------------------
+        📄 CSRT_0100_side_1_near_contact.txt
+        📄 CSRT_0102_side_3_near_contact.txt
+        📄 CSRT_0105_side_1_near_contact.txt
+        📄 CSRT_0106_side_1_near_contact.txt
+        📄 CSRT_0108_side_2_near_contact.txt
+        📄 CSRT_0109_side_1_near_contact.txt
+        📄 CSRT_0109_side_3_near_contact.txt
+        📄 CSRT_0111_side_1_near_contact.txt
+        📄 CSRT_0115_side_1_near_contact.txt
+        📄 CSRT_0116_side_1_near_contact.txt
+        📄 CSRT_0117_side_1_near_contact.txt
+        📄 CSRT_0118_side_1_near_contact.txt
+        📄 CSRT_0119_side_1_near_contact.txt
+        📄 CSRT_0119_side_2_near_contact.txt
+        📄 CSRT_0120_side_1_near_contact.txt
+        📄 CSRT_0121_side_1_near_contact.txt
+        📄 CSRT_0122_side_1_near_contact.txt
+        📄 CSRT_0122_side_2_near_contact.txt
+        📄 CSRT_021_side_1_near_contact.txt
+        📄 CSRT_021_side_2_near_contact.txt
+        📄 CSRT_022_side_2_near_contact.txt
+        📄 CSRT_028_side_3_near_contact.txt
+        📄 CSRT_029_side_2_near_contact.txt
+        📄 CSRT_031_side_1_near_contact.txt
+        📄 CSRT_033_side_3_near_contact.txt
+        📄 CSRT_035_side_1_near_contact.txt
+        📄 CSRT_036_side_1_near_contact.txt
+        📄 CSRT_037_side_3_near_contact.txt
+        📄 CSRT_040_side_1_near_contact.txt
+        📄 CSRT_043_side_1_near_contact.txt
+        📄 CSRT_046_side_2_near_contact.txt
+        📄 CSRT_049_side_4_near_contact.txt
+        📄 CSRT_050_side_1_near_contact.txt
+        📄 CSRT_052_side_1_near_contact.txt
+        📄 CSRT_053_side_1_near_contact.txt
+        📄 CSRT_054_side_1_near_contact.txt
+        📄 CSRT_057_side_1_near_contact.txt
+        📄 CSRT_058_side_2_near_contact.txt
+        📄 CSRT_060_side_1_near_contact.txt
+        📄 CSRT_061_side_1_near_contact.txt
+        📄 CSRT_062_side_1_near_contact.txt
+        📄 CSRT_063_side_1_near_contact.txt
+        📄 CSRT_063_side_2_near_contact.txt
+        📄 CSRT_064_side_1_near_contact.txt
+        📄 CSRT_065_side_1_near_contact.txt
+        📄 CSRT_067_side_1_near_contact.txt
+        📄 CSRT_069_side_3_near_contact.txt
+        📄 CSRT_070_side_1_near_contact.txt
+        📄 CSRT_071_side_1_near_contact.txt
+        📄 CSRT_073_side_1_near_contact.txt
+        📄 CSRT_074_side_1_near_contact.txt
+        📄 CSRT_074_side_2_near_contact.txt
+        📄 CSRT_075_side_2_near_contact.txt
+        📄 CSRT_076_side_1_near_contact.txt
+        📄 CSRT_083_side_1_near_contact.txt
+        📄 CSRT_085_side_2_near_contact.txt
+        📄 CSRT_088_side_2_near_contact.txt
+        📄 CSRT_089_side_1_near_contact.txt
+        📄 CSRT_091_side_1_near_contact.txt
+        📄 CSRT_092_side_3_near_contact.txt
+        📄 CSRT_097_side_1_near_contact.txt
+
+    📁 data/Young_moduli/
+    --------------------
+      📄 100.csv
+      📄 101.csv
+      📄 102.csv
+      📄 103.csv
+      📄 104.csv
+      📄 106.csv
+      📄 107.csv
+      📄 108.csv
+      📄 109.csv
+      📄 110.csv
+      📄 111.csv
+      📄 112.csv
+      📄 113.csv
+      📄 114.csv
+      📄 115.csv
+      📄 116.csv
+      📄 117.csv
+      📄 118.csv
+      📄 119.csv
+      📄 120.csv
+      📄 121.csv
+      📄 122.csv
+      📄 58.csv
+      📄 59.csv
+      📄 60.csv
+      📄 61.csv
+      📄 62.csv
+      📄 63.csv
+      📄 64.csv
+      📄 65.csv
+      📄 66.csv
+      📄 67.csv
+      📄 68.csv
+      📄 69.csv
+      📄 70.csv
+      📄 71.csv
+      📄 72.csv
+      📄 73.csv
+      📄 74.csv
+      📄 75.csv
+      📄 76.csv
+      📄 77.csv
+      📄 79.csv
+      📄 80.csv
+      📄 81.csv
+      📄 82.csv
+      📄 83.csv
+      📄 84.csv
+      📄 85.csv
+      📄 87.csv
+      📄 88.csv
+      📄 89.csv
+      📄 90.csv
+      📄 91.csv
+      📄 92.csv
+      📄 93.csv
+      📄 94.csv
+      📄 97.csv
+      📄 98.csv
+      📄 99.csv
+
+  📁 figures/
+  ----------
+    📄 Fig1.pdf
+    📄 Fig2.pdf
+    📄 Fig3.pdf
+    📄 Fig4.pdf
+
+    📁 figures/SM/
+    -------------
+      📄 SM Fig1.png
+      📄 SM Fig2.png
+      📄 SM Fig3.png
+      📄 SM Fig4.png
+      📄 SM Fig5.png
+      📄 SM Fig6.png
+      📄 SM Fig7 - imaging.pdf
+      📄 SM Fig8 - curvature extraction.pdf
+      📄 SM Fig9 - Young's modulus extraction.pdf
+      📄 SM Fig9 - slip twine dist and plot.png
+      📄 Vid S1 - sim_vid_E100_loc20_mu0.mp4
+      📄 Vid S2 - motor mod no twine.mp4
+      📄 contact wo twine.png
+      📄 sim_snapshot.png
+      📄 sine_fit_R2_dist.png
+
+  📁 outputs/
+  ----------
+
+  📁 scripts/
+  ----------
+    📄 bootstrap.py
+        └─ (no functions)
+    📄 build_exp_RE_fits.py
+        └─ (no functions)
+    📄 build_exp_events.py
+        ├─ build_events()
+    📄 build_exp_plants.py
+        ├─ build_plants_from_dataframe()
+    📄 build_exp_sine_fits.py
+        └─ (no functions)
+    📄 build_motor_events.py
+        ├─ build_motor_events()
+    📄 build_sim_analysis.py
+        └─ (no functions)
+    📄 build_twining_analysis.py
+        └─ (no functions)
+    📄 build_xtrm_events.py
+        ├─ build_xtrm_events()
+    📄 explore_exp_Egroups.py
+        └─ (no functions)
+    📄 gen_Fig1.py
+        └─ (no functions)
+    📄 gen_Fig2.py
+        └─ (no functions)
+    📄 gen_Fig3.py
+        └─ (no functions)
+    📄 gen_Fig4.py
+        └─ (no functions)
+    📄 overlay_imgs.py
+        ├─ apply_hsv_filter()
+        ├─ blend_images()
+        ├─ change_brightness_contrast()
+        ├─ compute_difference()
+        ├─ crop_images()
+        ├─ filter_thresh()
+        ├─ get_cropped_files()
+        ├─ hard_overlap_images()
+        ├─ hsv_filter()
+        ├─ is_image_file()
+        ├─ process_and_overlay()
+        ├─ remove_background()
+        ├─ rotate_image()
+        ├─ rotate_image_square()
+        ├─ select_roi()
+        ├─ transparent_overlap_images()
+    📄 project_overview.py
+        ├─ _is_skipped()
+        ├─ extract_functions_from_file()
+        ├─ get_project_overview()
+        ├─ main()
+        ├─ print_requirements_file()
+
+  📁 src/
+  ------
+    📄 __init__.py
+        └─ (no functions)
+
+    📁 src/analysis/
+    ---------------
+      📄 bootstrap.py
+          └─ (no functions)
+      📄 exp_grouping_analysis.py
+          ├─ extract_E_grouping_data()
+          ├─ filter_scalar_ragged()
+      📄 exp_param_analysis.py
+          ├─ _safe_r2()
+          ├─ assign_contact_material_props()
+          ├─ collect_radius_E_by_section()
+          ├─ collect_scalar_distributions()
+          ├─ fit_E_Ls()
+          ├─ fit_R_Ls()
+      📄 exp_sine_analysis.py
+          ├─ fit_events_sine_2param()
+          ├─ normalize_smoothed_trj()
+      📄 sim_analysis.py
+          ├─ build_simulation_events()
+          ├─ fit_sim_events_sine_2param()
+      📄 slip_twine_analysis.py
+          ├─ analyze_two_point_angle()
+          ├─ attach_slip_twine_to_events()
+          ├─ compute_angle_vs_horizontal()
+          ├─ extract_non_h5_twine_times()
+          ├─ extract_slip_twine_scalars()
+          ├─ find_first_threshold_crossing()
+          ├─ get_slip_twine_arrays()
+          ├─ get_twine_Feff()
+          ├─ h5_twine_initiation_compensation()
+          ├─ smooth_angle()
+
+    📁 src/core/
+    -----------
+      📄 __init__.py
+          └─ (no functions)
+      📄 exp_event.py
+          ├─ __init__()
+          ├─ bind_context()
+          ├─ compute_force()
+          ├─ extract_tracking()
+          ├─ load_view_metadata()
+          ├─ plnt()
+          ├─ save_Lbase()
+      📄 exp_plant.py
+          ├─ __init__()
+          ├─ from_dataframe()
+          ├─ load_cn_data()
+          ├─ load_free_shape()
+          ├─ load_material_properties()
+          ├─ load_view_data()
+      📄 motor_event.py
+          ├─ __init__()
+          ├─ bind_context()
+          ├─ plnt()
+      📄 motor_plant.py
+          ├─ __init__()
+          ├─ from_dataframe()
+      📄 plant_context.py
+          ├─ __init__()
+          ├─ get_plant()
+      📄 sim_event.py
+          ├─ __init__()
+          ├─ calc_sim_vars()
+      📄 xtrm_event.py
+          ├─ __init__()
+          ├─ compute_resistance()
+          ├─ get_params()
+      📄 xtrm_plant.py
+          ├─ __init__()
+
+    📁 src/geometry/
+    ---------------
+      📄 free_shape_calcs.py
+          ├─ compute_Lbase()
+          ├─ compute_angle_from_coord()
+          ├─ compute_curvature_from_angle()
+          ├─ compute_s_ds()
+      📄 kinematics.py
+          ├─ compute_angle_near_contact()
+          ├─ compute_contact_tracking()
+          ├─ compute_pend_angle()
+          ├─ compute_support_length()
+          ├─ compute_support_tracking()
+
+    📁 src/io/
+    ---------
+      📄 __init__.py
+          └─ (no functions)
+      📄 cache.py
+          ├─ _build_snapshot_filename()
+          ├─ _get_latest_snapshot()
+          ├─ load_snapshot()
+          ├─ save_snapshot()
+      📄 data_imports.py
+          ├─ apply_project_style()
+          ├─ get_h5_frames()
+          ├─ load_E_dict()
+          ├─ load_contact_tracking()
+          ├─ load_h5_twine_results()
+          ├─ load_metadata()
+          ├─ load_motor_data()
+          ├─ load_simulation_pickle()
+          ├─ load_skeleton_xl()
+          ├─ load_support_tracking()
+          ├─ load_xtrm_data()
+      📄 paths.py
+          ├─ ensure_dirs()
+          ├─ get_project_root()
+      📄 read_tracking_file.py
+          ├─ funcget_tracked_data()
+          ├─ get_tracked_data()
+
+    📁 src/material/
+    ---------------
+      📄 __init__.py
+          └─ (no functions)
+      📄 caliber_radius.py
+          ├─ extract_measured_radii()
+      📄 youngs_modulus.py
+          ├─ extract_E_and_r_sections()
+
+    📁 src/physics/
+    --------------
+      📄 __init__.py
+          └─ (no functions)
+      📄 forces.py
+          ├─ F_of_t()
+          ├─ calc_F_equib()
+          ├─ calc_effective_resistance()
+
+    📁 src/plotting/
+    ---------------
+      📄 __init__.py
+          └─ (no functions)
+      📄 bootstrap.py
+          └─ (no functions)
+      📄 exp_param_plots.py
+          ├─ legend_for_R_E()
+          ├─ plot_E_vs_Ls()
+          ├─ plot_R_vs_Ls()
+      📄 exp_sine_plots.py
+          ├─ plot_all_events()
+          ├─ plot_exmp_trj_w_sine_fit()
+          ├─ plot_exp_mean_trj()
+          ├─ plot_exp_sine_R2_dist()
+      📄 figure_config.py
+          └─ (no functions)
+      📄 grouping_plots.py
+          ├─ plot_group_mean_trajectory()
+          ├─ plot_grouped_scatter_with_ellipse()
+          ├─ plot_grouped_trajectories()
+          ├─ plot_normalized_trajectories()
+      📄 plot_layout.py
+          ├─ add_panel_labels()
+          ├─ adjust_axis_position()
+          ├─ adjust_figure_margins()
+          ├─ compute_image_height_ratio()
+          ├─ create_broken_axis()
+          ├─ create_inset()
+          ├─ get_bin_format()
+          ├─ make_grid_figure()
+          ├─ make_named_grid()
+          ├─ make_named_subfig_grid()
+          ├─ style_axis()
+          ├─ tighten_figure()
+      📄 primitives.py
+          ├─ darken_if_light()
+          ├─ plot_distribution()
+          ├─ plot_errorbar()
+          ├─ plot_fit_line()
+          ├─ plot_image()
+      📄 sim_plots.py
+          ├─ plot_all_sim_events()
+          ├─ plot_normalized_sim_trj()
+          ├─ plot_pure_sine()
+          ├─ plot_sim_F_t_constE_varL()
+          ├─ plot_sim_F_t_constpar()
+          ├─ plot_sim_FsBk()
+          ├─ plot_sim_Fvec_vs_Fplanar()
+          ├─ plot_sim_FvsFxy_fric()
+          ├─ plot_sim_R2_distribution()
+          ├─ plot_sim_maxF_vs_E()
+          ├─ plot_sim_maxF_vs_llev()
+          ├─ plot_sim_torque()
+          ├─ plot_sim_trj_with_sine_fit()
+          ├─ plot_sim_tslip()
+          ├─ plot_sine_fit_examples()
+      📄 slip_twine_plots.py
+          ├─ ltip_tcont_multi_plot()
+          ├─ plot_motor_twine()
+          ├─ plot_motor_twine_lin()
+          ├─ plot_slip_time_fit()
+          ├─ plot_slip_twine_curvature_hist()
+          ├─ plot_slip_twine_lo_hist()
+          ├─ plot_slip_twine_time_hist()
+          ├─ plot_slip_twine_torque_hist()
+          ├─ plot_time_vs_ltip()
+          ├─ twine_ratio_Feff()
+      📄 stylesheet_jxb.mplstyle
+
+    📁 src/utils/
+    ------------
+      📄 array_tools.py
+          ├─ adjust_length()
+          ├─ assign_equal_width_bins()
+          ├─ assign_percentile_bins()
+          ├─ closest()
+          ├─ merge_groups_N_bins()
+      📄 curve_tools.py
+          ├─ calc_R2_RMSE()
+          ├─ compact_letter_display2()
+          ├─ despike()
+          ├─ fit_w_error()
+          ├─ gaussian_smooth()
+          ├─ multi_range_fit()
+      📄 img_tools.py
+          ├─ angle_2lines()
+          ├─ crop_and_filter()
+          ├─ distance_2d()
+          ├─ draw_line()
+          ├─ hsv_filter()
+          ├─ kernel_size2D()
+          ├─ live_line()
+          ├─ multiline_dist()
+          ├─ normal_window()
+          ├─ nothing()
+          ├─ order_skeleton_points()
+          ├─ waitandexit()
+          ├─ zoom()
+      📄 math_tools.py
+          ├─ expfunc1()
+          ├─ expfunc2()
+          ├─ expfunc3()
+          ├─ gaussfunc()
+          ├─ linfunc()
+          ├─ logfunc()
+          ├─ one_over_x()
+          ├─ parafunc()
+          ├─ polyfunc()
+          ├─ powerfunc()
+          ├─ shifted_linfunc()
+          ├─ sine_2param()
